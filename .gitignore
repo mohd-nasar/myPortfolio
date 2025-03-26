@@ -2,3 +2,7 @@
 node_modules/ 
 *.pack 
 *.gz 
+.next/ 
+node_modules/ 
+*.pack.gz 
+*.node 
