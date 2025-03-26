@@ -94,9 +94,7 @@ export default function Work() {
                     key={`skill-tag-${index}-${tagIndex}`}
                     variant="body-default-xs"
                     onBackground="brand-weak"
-                    border="neutral-medium"
                     padding="4"
-                    radius="m"
                   >
                     {tag}
                   </Text>
