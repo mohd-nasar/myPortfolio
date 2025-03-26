@@ -31,7 +31,7 @@ export async function generateMetadata() {
 
 export default function Home() {
   return (
-    <Column maxWidth="100%" gap="xl" horizontal="center">
+    <Column maxWidth={100} gap="xl" horizontal="center">
       <script
         type="application/ld+json"
         suppressHydrationWarning
@@ -104,7 +104,7 @@ export default function Home() {
         </Column>
       </Column>
       {/* Add an image at the bottom */}
-      <Column horizontal="center" paddingTop="none">
+      <Column horizontal="center">
         <img
           src="/images/projects/project-01/cover-06.jpg"
           alt="Footer Image"
@@ -114,7 +114,7 @@ export default function Home() {
       
       {/* Add the 'Getting Bored' section after the image */}
       <Column horizontal="center" paddingTop="l">
-        <Flex gap="16" alignItems="center">
+        <Flex gap="16" align="center">
           <Text style={{ fontSize: "2rem", fontWeight: "bold" }}>Getting Bored? Chat with me</Text>
           <Button
             id="chatbot-link"
