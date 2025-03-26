@@ -91,7 +91,7 @@ export default function Home() {
               <Button
                 id="download-cv"
                 data-border="rounded"
-                href="https://drive.google.com/file/d/1ky0pWJzQJVSTu31xQ2t81POA0lnugJTX/view?usp=drivesdk"
+                href="https://drive..com/file/d/1ky0pWJzQJVSTu31xQ2t81POA0lnugJTX/view?usp=drivesdk"
                 variant="primary"
                 size="m"
                 target="_blank"
