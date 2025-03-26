@@ -88,7 +88,7 @@ export default function Work() {
               <Text variant="heading-strong-m">{skill.title}</Text>
 
               {/* Skill Tags */}
-              <Flex gap="6" wrap>
+              <Flex gap="m" wrap>
                 {skill.Tags?.map((tag, tagIndex) => (
                   <Text
                     key={`skill-tag-${index}-${tagIndex}`}
@@ -163,15 +163,13 @@ export default function Work() {
               ))}
 
               {/* Project Tags */}
-              <Flex gap="6" wrap>
+              <Flex gap="m" wrap>
                 {project.Tags.map((tag, tagIndex) => (
                   <Text
                     key={`project-tag-${index}-${tagIndex}`}
                     variant="body-default-xs"
                     onBackground="brand-weak"
-                    border="neutral-medium"
                     padding="4"
-                    radius="m"
                   >
                     {tag}
                   </Text>
